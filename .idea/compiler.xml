@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="AkkaDemo" />
         <module name="AnnotationDemo" />
         <module name="GuavaDemos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AkkaDemo" target="1.5" />
       <module name="AnnotationDemo" target="1.5" />
       <module name="BCPDemo" target="1.5" />
       <module name="GuavaDemos" target="1.6" />
