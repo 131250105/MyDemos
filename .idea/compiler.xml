@@ -25,14 +25,17 @@
         <module name="AkkaDemo" />
         <module name="AnnotationDemo" />
         <module name="GuavaDemos" />
+        <module name="LeetCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AkkaDemo" target="1.5" />
-      <module name="AnnotationDemo" target="1.5" />
+      <module name="AnnotationDemo" target="1.8" />
       <module name="BCPDemo" target="1.5" />
       <module name="GuavaDemos" target="1.6" />
+      <module name="LeetCode" target="1.5" />
       <module name="MyDemoes" target="1.5" />
+      <module name="MyTestDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

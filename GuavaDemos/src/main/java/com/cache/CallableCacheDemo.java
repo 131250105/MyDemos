@@ -22,7 +22,6 @@ public class CallableCacheDemo {
                     return "helloworld";
                 }
             });
-
             System.out.println(val);
         }catch (Exception e){
             e.printStackTrace();
